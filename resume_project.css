@@ -106,6 +106,7 @@ section:nth-child(even){
 	font-size: 1.6rem;
     font-family: -webkit-pictograph;
     color: rgb(252, 214, 4);
+	padding: 10px 0;
 }
 /*author-section*/
 
@@ -302,7 +303,7 @@ section:nth-child(even){
 }
 /*contact*/
 #contact{
-	background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+	background: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
 	/* background: linear-gradient(to top right,#2857a4, #403066 70%); */
 }
 #contact .section-heading{
@@ -330,7 +331,7 @@ section:nth-child(even){
     width: 90%;
     border: none;
     border-bottom: 2px solid white;
-    margin: 5% auto;
+    margin: 6% auto;
     padding: 10px;
     font-size: 0.9rem;
 }
@@ -363,8 +364,14 @@ section:nth-child(even){
 .my-address p{
 	margin: 15px 0px;
 }
+/* .bottom-social-tag-list{
+	margin-bottom: 50px;
+} */
 .bottom-social-tag-list li{
 	padding: 0.5em;
+}
+.bottom-social-tag-list li a{
+	font-size: 1.2rem;
 }
 /*percent*/
 
@@ -513,7 +520,7 @@ section:nth-child(even){
 	}
 	.contact-child1 form input,textarea{
 		margin: 5% 0px;
-		padding: 0px;
+		padding: 10px;
 	}
 
 }
