@@ -330,6 +330,7 @@ section:nth-child(even){
 	display: block;
     width: 90%;
     border: none;
+	font-size: 1em;
     border-bottom: 2px solid white;
     margin: 6% auto;
     padding: 10px;
